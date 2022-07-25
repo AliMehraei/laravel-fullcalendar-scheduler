@@ -40,9 +40,9 @@ class FullcalendarSchedulerServiceProvider extends ServiceProvider
 
         // publish all the required files to generate the calendar
         $this->publishes([
-            __DIR__ . 'assets/fullcalendar/main.css' => public_path('/vendor/fullcalendar-scheduler/css/main.css'),
-            __DIR__ . 'assets/fullcalendar/main.js' => public_path('/vendor/fullcalendar-scheduler/js/main.js'),
-            __DIR__ . 'assets/fullcalendar/locales-all.js' => public_path('/vendor/fullcalendar-scheduler/js/locales-all.js'),
+            __DIR__ . '/assets/fullcalendar/main.css' => public_path('/vendor/fullcalendar-scheduler/css/main.css'),
+            __DIR__ . '/assets/fullcalendar/main.js' => public_path('/vendor/fullcalendar-scheduler/js/main.js'),
+            __DIR__ . '/assets/fullcalendar/locales-all.js' => public_path('/vendor/fullcalendar-scheduler/js/locales-all.js'),
 
 /*            __DIR__ . '/../../../npm-asset/fullcalendar-scheduler/dist/scheduler.css' => public_path('css/scheduler.css'),
             __DIR__ . '/../../../npm-asset/fullcalendar-scheduler/dist/scheduler.js'  => public_path('js/scheduler.js'),
