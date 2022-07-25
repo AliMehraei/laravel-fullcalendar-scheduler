@@ -27,26 +27,18 @@ to the ```require``` section of your `composer.json` file.
 
 ### Note
 
-This package is written based on this git repository:
-
-```apacheconf
+This package is written based on this git repository: 
 https://github.com/Edofre/laravel-fullcalendar-scheduler
-```
 
-The fxp/composer-asset plugin is required for this package to install properly. This plugin enables you to download
+
+The foxy/foxy plugin is required for this package to install properly. This plugin enables you to download
 bower packages through composer.
 
 You can install it using this command:
 
 ```
-composer global require "fxp/composer-asset-plugin:^1.3.0”
+composer global require "foxy/foxy:^1.0.0"
 ```
-
-This will add the fxp composer-asset-plugin and your composer will be able to find and download the required
-bower-asset/fullcalendar-scheduler package. You can find more info on this
-page: [https://packagist.org/packages/fxp/composer-asset-plugin](https://packagist.org/packages/fxp/composer-asset-plugin)
-.
-
 ## Configuration
 
 Add the ServiceProvider to your config/app.php
