@@ -1,8 +1,29 @@
+<link href="/vendor/fullcalendar-scheduler/css/main.css" rel="stylesheet" media="print">
 
+<script src='http://fullcalendar.io/js/fullcalendar-2.1.1/lib/moment.min.js'></script>
+<script src='http://fullcalendar.io/js/fullcalendar-2.1.1/lib/jquery.min.js'></script>
+<script src="http://fullcalendar.io/js/fullcalendar-2.1.1/lib/jquery-ui.custom.min.js"></script>
+<script src='http://fullcalendar.io/js/fullcalendar-2.1.1/fullcalendar.min.js'></script>
+
+
+
+{{--
 <script src="/vendor/momentjs/js/moment.js"></script>
 <link href="/vendor/fullcalendar-scheduler/css/main.css" rel="stylesheet" media="print">
 <script src="/vendor/fullcalendar-scheduler/js/main.js"></script>
 <script src="/vendor/fullcalendar-scheduler/js/locales-all.js"></script>
+--}}
+
+
+
+
+
+
+
+
+
+
+
 
 {{--
 
