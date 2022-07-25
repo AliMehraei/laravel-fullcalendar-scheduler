@@ -1,7 +1,7 @@
 
 <link href="/vendor/fullcalendar-scheduler/css/main.css" rel="stylesheet" media="print">
-<script src="/vendor/fullcalendar-scheduler/js/main.min.js"></script>
-<script src="/vendor/fullcalendar-scheduler/js/locales-all.min.js"></script>
+<script src="/vendor/fullcalendar-scheduler/js/main.js"></script>
+<script src="/vendor/fullcalendar-scheduler/js/locales-all.js"></script>
 
 {{--
 
