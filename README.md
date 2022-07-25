@@ -25,21 +25,32 @@ or add
 
 to the ```require``` section of your `composer.json` file.
 
-### Note 
-The fxp/composer-asset plugin is required for this package to install properly.
-This plugin enables you to download bower packages through composer.
+### Note
+
+This package is written based on this git repository:
+
+```apacheconf
+https://github.com/Edofre/laravel-fullcalendar-scheduler
+```
+
+The fxp/composer-asset plugin is required for this package to install properly. This plugin enables you to download
+bower packages through composer.
 
 You can install it using this command:
+
 ```
 composer global require "fxp/composer-asset-plugin:^1.3.0”
 ```
 
-This will add the fxp composer-asset-plugin and your composer will be able to find and download the required bower-asset/fullcalendar-scheduler package.
-You can find more info on this page: [https://packagist.org/packages/fxp/composer-asset-plugin](https://packagist.org/packages/fxp/composer-asset-plugin).
+This will add the fxp composer-asset-plugin and your composer will be able to find and download the required
+bower-asset/fullcalendar-scheduler package. You can find more info on this
+page: [https://packagist.org/packages/fxp/composer-asset-plugin](https://packagist.org/packages/fxp/composer-asset-plugin)
+.
 
 ## Configuration
 
 Add the ServiceProvider to your config/app.php
+
 ```php
 'providers' => [
         ...
@@ -48,6 +59,7 @@ Add the ServiceProvider to your config/app.php
 ```
 
 And add the facade
+
 ```php
 'aliases' => [
         ...
@@ -56,14 +68,18 @@ And add the facade
 ```
 
 Publish assets and configuration files
+
 ```
 php artisan vendor:publish --tag=config
 php artisan vendor:publish --tag=fullcalendar-scheduler
 ```
 
 ### Manually loading script files
-By setting the include_scripts option in the config/.env file to false the scripts will not be included when generating the calendar.
-If you want to manually include the scripts you can call the following static function in your header/footer/etc.
+
+By setting the include_scripts option in the config/.env file to false the scripts will not be included when generating
+the calendar. If you want to manually include the scripts you can call the following static function in your
+header/footer/etc.
+
 ```
     \AliMehraei\FullcalendarScheduler\FullcalendarScheduler::renderScriptFiles();
 ```
@@ -71,6 +87,7 @@ If you want to manually include the scripts you can call the following static fu
 ### Example
 
 Use the following as your controller action
+
 ```php
 /**
  * @return \Illuminate\Http\Response
@@ -162,6 +179,7 @@ public function index()
 ```
 
 And then add the following to your view
+
 ```php
 {!! $calendar->generate() !!}
 ```
@@ -169,6 +187,7 @@ And then add the following to your view
 ## Tests
 
 Run the tests by executing the following command:
+
 ```
 composer test
 ```
