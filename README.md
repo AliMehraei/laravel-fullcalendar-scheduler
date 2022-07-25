@@ -1,10 +1,10 @@
 # Laravel fullcalendar scheduler component
 
-[![Latest Stable Version](https://poser.pugx.org/edofre/laravel-fullcalendar-scheduler/v/stable)](https://packagist.org/packages/edofre/laravel-fullcalendar-scheduler)
-[![Total Downloads](https://poser.pugx.org/edofre/laravel-fullcalendar-scheduler/downloads)](https://packagist.org/packages/edofre/laravel-fullcalendar-scheduler)
-[![Latest Unstable Version](https://poser.pugx.org/edofre/laravel-fullcalendar-scheduler/v/unstable)](https://packagist.org/packages/edofre/laravel-fullcalendar-scheduler)
-[![License](https://poser.pugx.org/edofre/laravel-fullcalendar-scheduler/license)](https://packagist.org/packages/edofre/laravel-fullcalendar-scheduler)
-[![composer.lock](https://poser.pugx.org/edofre/laravel-fullcalendar-scheduler/composerlock)](https://packagist.org/packages/edofre/laravel-fullcalendar-scheduler)
+[![Latest Stable Version](https://poser.pugx.org/alimehraei/laravel-fullcalendar-scheduler/v/stable)](https://packagist.org/packages/alimehraei/laravel-fullcalendar-scheduler)
+[![Total Downloads](https://poser.pugx.org/alimehraei/laravel-fullcalendar-scheduler/downloads)](https://packagist.org/packages/alimehraei/laravel-fullcalendar-scheduler)
+[![Latest Unstable Version](https://poser.pugx.org/alimehraei/laravel-fullcalendar-scheduler/v/unstable)](https://packagist.org/packages/alimehraei/laravel-fullcalendar-scheduler)
+[![License](https://poser.pugx.org/alimehraei/laravel-fullcalendar-scheduler/license)](https://packagist.org/packages/alimehraei/laravel-fullcalendar-scheduler)
+[![composer.lock](https://poser.pugx.org/alimehraei/laravel-fullcalendar-scheduler/composerlock)](https://packagist.org/packages/alimehraei/laravel-fullcalendar-scheduler)
 [![Build Status](https://travis-ci.org/AliMehraei/laravel-fullcalendar-scheduler.svg?branch=master)](https://travis-ci.org/AliMehraei/laravel-fullcalendar-scheduler)
 
 ## Installation
@@ -14,13 +14,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 To install, either run
 
 ```
-$ php composer.phar require edofre/laravel-fullcalendar-scheduler "v1.2.3"
+$ php composer.phar require alimehraei/laravel-fullcalendar-scheduler "v1.2.3"
 ```
 
 or add
 
 ```
-"edofre/laravel-fullcalendar-scheduler": "v1.2.3"
+"alimehraei/laravel-fullcalendar-scheduler": "v1.2.3"
 ```
 
 to the ```require``` section of your `composer.json` file.
