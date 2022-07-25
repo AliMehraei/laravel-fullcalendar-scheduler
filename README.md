@@ -7,7 +7,7 @@
 [![composer.lock](https://poser.pugx.org/alimehraei/laravel-fullcalendar-scheduler/composerlock)](https://packagist.org/packages/alimehraei/laravel-fullcalendar-scheduler)
 [![Build Status](https://travis-ci.org/AliMehraei/laravel-fullcalendar-scheduler.svg?branch=master)](https://travis-ci.org/AliMehraei/laravel-fullcalendar-scheduler)
 
-##ATTENTION: THIS PACKAGE IS NOT READY YET !!
+## ATTENTION: THIS PACKAGE IS NOT READY YET !!
 
 ## Installation
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
