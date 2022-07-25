@@ -40,8 +40,11 @@ class FullcalendarSchedulerServiceProvider extends ServiceProvider
 
         // publish all the required files to generate the calendar
         $this->publishes([
-            // scheduler library
-            __DIR__ . '/../../../npm-asset/fullcalendar-scheduler/dist/scheduler.css' => public_path('css/scheduler.css'),
+            __DIR__ . 'assets/fullcalendar/main.css' => public_path('/vendor/fullcalendar-scheduler/css/main.css'),
+            __DIR__ . 'assets/fullcalendar/main.js' => public_path('/vendor/fullcalendar-scheduler/js/main.js'),
+            __DIR__ . 'assets/fullcalendar/locales-all.js' => public_path('/vendor/fullcalendar-scheduler/js/locales-all.js'),
+
+/*            __DIR__ . '/../../../npm-asset/fullcalendar-scheduler/dist/scheduler.css' => public_path('css/scheduler.css'),
             __DIR__ . '/../../../npm-asset/fullcalendar-scheduler/dist/scheduler.js'  => public_path('js/scheduler.js'),
             // fullcalendar library
             __DIR__ . '/../../../npm-asset/fullcalendar/dist/fullcalendar.css'        => public_path('css/fullcalendar.css'),
@@ -50,7 +53,7 @@ class FullcalendarSchedulerServiceProvider extends ServiceProvider
             __DIR__ . '/../../../npm-asset/fullcalendar/dist/locale-all.js'           => public_path('js/locale-all.js'),
             __DIR__ . '/../../../npm-asset/fullcalendar/dist/gcal.js'                 => public_path('js/gcal.js'),
             // moment library
-            __DIR__ . '/../../../npm-asset/moment/moment.js'                          => public_path('js/moment.js'),
+            __DIR__ . '/../../../npm-asset/moment/moment.js'                          => public_path('js/moment.js'),*/
         ], 'fullcalendar-scheduler');
     }
 

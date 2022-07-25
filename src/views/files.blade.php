@@ -1,7 +1,7 @@
 
-<link href="../../node_modules/fullcalendar-scheduler/main.css" rel="stylesheet" media="print">
-<script src="../../node_modules/fullcalendar-scheduler/main.min.js"></script>
-<script src="../../node_modules/fullcalendar-scheduler/locales-all.min.js"></script>
+<link href="/vendor/fullcalendar-scheduler/css/main.css" rel="stylesheet" media="print">
+<script src="/vendor/fullcalendar-scheduler/js/main.min.js"></script>
+<script src="/vendor/fullcalendar-scheduler/js/locales-all.min.js"></script>
 
 {{--
 
