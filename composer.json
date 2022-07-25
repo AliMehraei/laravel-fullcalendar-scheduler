@@ -1,0 +1,63 @@
+{
+  "name": "alimehraei/laravel-fullcalendar-scheduler",
+  "description": "Laravel component for fullcalendar scheduler module",
+  "keywords": [
+    "fullcalendar-scheduler",
+    "scheduler",
+    "javascript",
+    "event",
+    "calendar",
+    "laravel 9",
+    "php 8"
+  ],
+  "homepage": "https://github.com/alimehraei/laravel-fullcalendar-scheduler",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Edo Freriks",
+      "email": "edofre@gmail.com"
+    },
+    {
+      "name": "Ali Mehraei",
+      "email": "ali.mehraei@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "8.*",
+    "laravel/framework": "9.*",
+    "kriss/yii2-calendar-schedule": "*"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^7.6",
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "AliMehraei\\FullcalendarScheduler\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AliMehraei\\FullcalendarScheduler\\Test\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "config": {
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "AliMehraei\\FullcalendarScheduler\\FullcalendarSchedulerServiceProvider"
+      ]
+    },
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
