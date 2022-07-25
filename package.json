@@ -1,3 +1,6 @@
 {
-    "license": "MIT"
+    "license": "MIT",
+    "dependencies": {
+        "fullcalendar-scheduler": "^5.11.0"
+    }
 }

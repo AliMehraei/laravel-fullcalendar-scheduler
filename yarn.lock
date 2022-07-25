@@ -2,3 +2,7 @@
 # yarn lockfile v1
 
 
+fullcalendar-scheduler@^5.11.0:
+  version "5.11.0"
+  resolved "https://registry.yarnpkg.com/fullcalendar-scheduler/-/fullcalendar-scheduler-5.11.0.tgz#d802d0d740d440dba0c76d31cf38ed940e423ff5"
+  integrity sha512-KN7W6QXfBEcYRkNz6nNPXSN4fcPt43EFW+V0HsvHR9oZlfyRqaLxrGMLb+t/0Q4lmP8liAzHZofGqtvaof/LmA==
