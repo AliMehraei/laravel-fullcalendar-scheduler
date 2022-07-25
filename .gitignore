@@ -2,3 +2,5 @@ vendor/
 build/
 tests/Integration/temp
 .idea
+.node_modules
+
